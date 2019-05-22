@@ -88,7 +88,7 @@ if __name__ == '__main__':
     # FIXME: find ln-dir from lightningd.
     path = path = expanduser("~/.lightning/lightning-rpc")
     if args.path_to_rpc_interface is not None:
-        path=expanduser(parser.path-to-rpc-interface)
+        path=expanduser(args.path_to_rpc_interface)
     
     balance = 1000000
     if args.balance is not None:
